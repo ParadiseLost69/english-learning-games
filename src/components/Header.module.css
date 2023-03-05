@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: #1f2937;
+  color: rgba(255, 255, 255, 0.864);
+  border-bottom: 0.5px solid rgba(40, 40, 40, 0.605);
+}
+
+.menu {
+  display: flex;
+  margin-inline: 1rem;
+}
+
+.menu h3 {
+  margin-inline: 1rem;
+  font-weight: 100;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
